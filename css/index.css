@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgba(241, 162, 175, 0.486);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+img{
+    max-width: 79%;
+}
+
+header {
+    background-color: coral;
+    color: rgb(242, 184, 194);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    color: black;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.portada{
+    color: rgb(248, 128, 198);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portada img{
+    margin: 1rem;
+    width: 25%;
+}
+
+.redes-sociales{
+    display: flex;
+    padding-left: 25vw;
+}
+
+.redes-sociales a{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.diseñosimg{
+    display: grid;
+    grid-gap: 10px;
+    margin: 100px;
+    justify-content: center;
+    grid-template-columns:repeat(3, 1fr)
+}
+
+.diseñosimg img{
+    border-radius: 10px;
+    
+}
+
+.pie-de-pagina{
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pie-de-pagina a{
+    border-style: groove;
+    border-radius: 4px;
+    border-color: black;
+    color: blueviolet;
+}
+
+
+
+
